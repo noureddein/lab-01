@@ -1,52 +1,55 @@
-.main .nav {
-        background-color: blue;
+.nav {
+  background-color: blue;
 }
 
 .main .menu {
-        background-color: brown;
+  background-color: brown;
 }
 
 .boxes .row1 .box {
-        background-color: chartreuse;
+  background-color: chartreuse;
 }
 
 .boxes .row2 .box {
-        background-color: crimson;
+  background-color: crimson;
 }
 
 .boxes .row3 .box {
-        background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 /* for Mobile */
 @media (max-width: 767px) {
-        .main .menu {
-                background-color: blueviolet;
-        }
+  .main .menu {
+    background-color: blueviolet;
+  }
 
-        .main .boxes {
-                background-color: brown;
-        }
-        /* row1 color */
+  .main .boxes {
+    background-color: brown;
+  }
+  /* row1 color */
 
-        .main .boxes .row1 :first-child {
-                background-color: rgb(99, 99, 253);
-        }
-        .main .boxes .row1 :last-child {
-                background-color: aqua;
-        }
+  .main .boxes .row1 :first-child {
+    background-color: rgb(99, 99, 253);
+  }
+  .main .boxes .row1 :last-child {
+    background-color: aqua;
+  }
 
-        /* row2 color */
-        .boxes .row2 :first-child {
-                background-color: brown;
-        }
-        .boxes .row2 :nth-child(2) {
-                background-color: rgb(161, 65, 65);
-        }
-        .boxes .row2 :nth-child(3) {
-                background-color: rgb(85, 53, 53);
-        }
-        .boxes .row2 :nth-child(4) {
-                background-color: rgb(73, 42, 42);
-        }
+  /* row2 color */
+  .boxes .row2 :first-child {
+    background-color: brown;
+  }
+  .boxes .row2 :nth-child(2) {
+    background-color: rgb(161, 65, 65);
+  }
+  .boxes .row2 :nth-child(3) {
+    background-color: rgb(85, 53, 53);
+  }
+  .boxes .row2 :nth-child(4) {
+    background-color: rgb(73, 42, 42);
+  }
+  .boxes .row3 .box {
+    background-color: chocolate;
+  }
 }
